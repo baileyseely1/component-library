@@ -214,3 +214,45 @@ div.banner-neutral {
   padding: 0;
   font-weight: 500;
 }
+
+/* card component */
+
+.card {
+  font-family: "Inter", "sans-serif";
+  position: relative;
+  text-align: center;
+  background: #f9fafb;
+  border-radius: 8px;
+  min-width: 35%;
+  max-width: 55%;
+  margin: 0 auto;
+  padding: 2em 1em;
+}
+
+.card h1 {
+  font-size: 1.35rem;
+  color: #111827;
+  margin: 1.25em 0 1em 0;
+  font-weight: 400;
+}
+
+.card p {
+  color: #6b7280;
+  font-weight: 400;
+  font-size: 1.1rem;
+  padding: 0 0.5em;
+  line-height: 35px;
+}
+
+.card img {
+  position: absolute;
+  top: -15%; /* Adjust to position the image halfway above the top */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 80px;
+}
+
+.card:hover {
+  box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.1);
+}

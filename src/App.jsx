@@ -1,12 +1,15 @@
 import "./App.css";
-import Banner from "./components/Banner/Banner";
+import Card from "./components/Card/Card";
 function App() {
   return (
     <>
-      <Banner className="banner" variant="error">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem,
-        quas.
-      </Banner>
+      <Card>
+        <h1>Easy Deployment</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente
+          iure totam est sequi, possimus corrupti?
+        </p>
+      </Card>
     </>
   );
 }
