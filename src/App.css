@@ -11,7 +11,7 @@ body {
   height: 100vh;
   margin: 0;
   padding: 0;
-  background-color: rgba(201, 163, 65, 0.62);
+  background-color: #4b5563;
 }
 
 /* button component */
@@ -98,4 +98,70 @@ button.button-danger {
 
 .menu-item:not(:last-child) {
   border-bottom: 1px solid #6b7280;
+}
+
+/* badge component */
+
+div.badge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5em 1.5em;
+  background-color: white;
+  border: none;
+}
+
+div.badge p {
+  font-family: "Inter", "sans-serif";
+  font-size: 1.5rem;
+  padding: 0;
+  margin: 0;
+}
+
+div.badge-square {
+  border-radius: 4px;
+}
+
+div.badge-pill {
+  border-radius: 25px;
+}
+
+div.badge-gray {
+  background: #c4c4c5;
+  color: #1f2937;
+}
+
+div.badge-red {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+div.badge-yellow {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+div.badge-green {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+div.badge-blue {
+  background: #dbeafe;
+  color: #1e40af;
+}
+
+div.badge-indigo {
+  background: #e0e7ff;
+  color: #3730a3;
+}
+
+div.badge-purple {
+  background: #ede9fe;
+  color: #5b21b6;
+}
+
+div.badge-pink {
+  background: #fce7f3;
+  color: #9d174d;
 }
