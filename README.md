@@ -1,3 +1,3 @@
 # Component++ library
 
-## project to practice making my own custom libraries, used custom hooks 
+## project to practice making my own custom components, used custom hooks 
