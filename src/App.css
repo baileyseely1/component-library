@@ -165,3 +165,52 @@ div.badge-pink {
   background: #fce7f3;
   color: #9d174d;
 }
+
+/* banner component */
+
+div.banner {
+  font-family: "Inter", "sans-serif";
+  display: flex;
+  gap: 0.75em;
+  padding: 1em 1em 0.5em 1em;
+  width: 90vw;
+  border-radius: 6px;
+  background-color: white;
+}
+
+div.banner.banner-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div.banner img {
+  width: 20px;
+  height: 20px;
+}
+
+div.banner-success {
+  background: #ecfdf5;
+  color: #065f46;
+}
+
+div.banner-warning {
+  background: #fffbeb;
+  color: #92400e;
+}
+
+div.banner-error {
+  background: #fef2f2;
+  color: #92400e;
+}
+
+div.banner-neutral {
+  background: #eff6ff;
+  color: #1e40af;
+}
+
+.banner-title {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+}

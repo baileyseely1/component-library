@@ -1,12 +1,12 @@
 import "./App.css";
-import Badge from "./components/Badge/Badge";
-
+import Banner from "./components/Banner/Banner";
 function App() {
   return (
     <>
-      <Badge className="badge" shape="pill" color="pink">
-        <p>Badge</p>
-      </Badge>
+      <Banner className="banner" variant="error">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem,
+        quas.
+      </Banner>
     </>
   );
 }
