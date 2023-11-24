@@ -1,15 +1,19 @@
 import "./App.css";
-import Card from "./components/Card/Card";
+import Testimonial from "./components/Testimonial/Testimonial";
 function App() {
   return (
     <>
-      <Card>
-        <h1>Easy Deployment</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente
-          iure totam est sequi, possimus corrupti?
-        </p>
-      </Card>
+      <Testimonial
+        src="lady.png"
+        name="May Andersons"
+        title="Workstation CTO"
+        logo="Logo.png"
+      >
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut ea natus
+        omnis incidunt dolorem, sapiente explicabo quod molestias ex quibusdam
+        aspernatur inventore ipsam sint saepe doloremque beatae totam numquam
+        consequatur.
+      </Testimonial>
     </>
   );
 }
